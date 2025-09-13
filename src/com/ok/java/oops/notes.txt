@@ -38,6 +38,13 @@ Encapsulation:
 It is the practice of bundling data (field) and methods (functions) that operate on the data into single unit (class).
 It also involves restricting direct access to some components using access modifiers (e.g., private, protected).
 
+Inheritance:
+Inheritance allows a class to acquire properties and methods of another class.
+It supports code reusability.
+
+1) Single
+2) Multilevel
+3) Hierarchical
 
 
 

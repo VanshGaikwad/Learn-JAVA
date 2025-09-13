@@ -34,5 +34,10 @@ myCar.color = "Red";
 myCar.drive();
 
 
+Encapsulation:
+It is the practice of bundling data (field) and methods (functions) that operate on the data into single unit (class).
+It also involves restricting direct access to some components using access modifiers (e.g., private, protected).
+
+
 
 

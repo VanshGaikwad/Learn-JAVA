@@ -75,6 +75,17 @@ a subclass provides a specific implementation of a method already defined in its
 The method to be called is determined at runtime based on the object.
 
 
+Abstraction:
+It focuses on showing only essential details while hiding the implementation.
+It is achieved through abstract classes and interfaces.
+
+Abstract class;
+Declared using abstract keyword
+can include both abstract methods (methods without body)
+and concrete methods(methods with a body)
+cannot be instantiated directly
+acts as a blueprint for subclasses, which must implement the abstract method.
+
 
 
 

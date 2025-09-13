@@ -1,0 +1,38 @@
+Multithreading
+
+The cpu often referred to as the brain of the computer, is responsible
+for executing instruction from programs.
+It performs basic arithmetic, logic, control, and input/output
+operations specific specified by the instructions.
+
+core is the individual processing unit within a cpu. Modern Cpu's can have multiple cores,
+allowing them to perform multiple tasks simultaneously.
+
+
+quad core means -> four tasks simultaneously
+
+process is instance of program that is being executed
+
+Thread:
+The smallest unit of exexution within a process.
+A process can have multiple threads, which shre the same resources but can run independently
+
+
+Multitasking : It allow an operating system to run multiple processes simultaneosly
+
+Multithreading refers to the ability to execute multiple threads within a single process concurrently.
+
+Multitasking can be achieved through multithreading where each task divided into threads
+that are managed concurrently.
+
+
+Java provides robust support for multithreading, allowing developers to create application that can perform multiple tasks simultaneously,
+improving performance and responsiveness
+
+A thread is a lightweight process ,
+the smallest unit of processing. Java supports multithreading through its java.lang.
+Thread class and the java.lang.Runnable interface.
+
+To create a new thread in java, you can either extend the Thread class or implement the Runnable interface
+
+

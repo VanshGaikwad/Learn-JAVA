@@ -88,5 +88,14 @@ acts as a blueprint for subclasses, which must implement the abstract method.
 
 
 
+interface
+class -> blueprint for object
+interface -> blueprint for class
+
+
+By interface we can achieve abstraction and multiple inheritance
+
+
+
 
 

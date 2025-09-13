@@ -37,3 +37,16 @@ class person extends Anybody{
 interface mobile{
     void makecall();
 }
+interface Battery{
+    void battery();
+}
+//interface implementation
+class mob implements mobile,Battery{
+    @Override
+    public void makecall() {
+        System.out.println("make call");
+    }
+    public void battery(){
+        System.out.println("battery");
+    }
+}

@@ -46,5 +46,36 @@ It supports code reusability.
 2) Multilevel
 3) Hierarchical
 
+java does not support multiple inheritance
+
+
+
+Polymorphism:
+Poly means many
+morphism means forms
+
+Polymorphism allows method to perform different tasks based on the object that calls them.
+
+It can be achieved by via:
+1)Runtime Polymorphism (Method Overiding)
+2)Compile-time Polymorphism (Method Overloading)
+
+Method Overloading
+(compile time polymorphism)
+
+Method overloading in java is a feature that allows a class
+to have multiple methods with the same name but different parameter lists.
+It enables a method to perform different tasks depending on the arguments passed to it.
+
+Method overiding
+(run time polymorphism)
+
+Run time polymorphism is achieved through method overiding where
+a subclass provides a specific implementation of a method already defined in its parent class.
+The method to be called is determined at runtime based on the object.
+
+
+
+
 
 

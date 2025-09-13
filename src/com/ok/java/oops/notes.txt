@@ -1,0 +1,38 @@
+OOPS : object-oriented-programming system
+
+A programming paradigm that uses objects and classes to design and implement software solutions.
+
+
+Key concepts in OOPS in Java
+
+1) Class
+2) Object
+3) Encapsulation
+4) Inheritance
+5) Polymorphism
+6) Abstraction
+
+Class:
+A class is blueprint for creating objects.
+It define the structure (field) and behaviour (methods) of objects.
+
+example:
+class Car { //class
+String color = "red"; //field
+    void drive() //method
+    {
+    System.out,println("Engine is on");
+    }
+}
+
+Object :
+Its instance of class . It an real-world entity.
+
+example:
+Car myCar = new Car ();
+myCar.color = "Red";
+myCar.drive();
+
+
+
+
